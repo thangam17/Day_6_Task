@@ -1,0 +1,53 @@
+class person {
+    constructor (name, age, gender, address, email, phone_number) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.address = address;
+        this.email = email;
+        this.phone_number = phone_number;
+    }
+    getName(){
+        return this.name;
+    }
+    getAge(){
+        return this.age;
+    }
+    getGender(){
+        return this.gender;
+    }
+    getAddress(){
+        return this.address;
+    }
+    getEmail(){
+        return this.email;
+    }
+    getPhoneNumber(){
+        return this.phone_number;
+    }
+    setName(name){
+        this.name = name;        
+    }
+    setAge(age){
+        this.age = age;
+    }
+    setGender(gender){
+        this.gender = gender;
+    }
+    setAddress(address){
+        this.address = address;
+    }
+    setEmail(email){
+        this.email = email;
+    }
+    setPhoneNumber(phone_number){
+        this.phone_number = phone_number;
+    }
+}
+
+
+
+// const person1 = new Person("John Doe", 25, "Male", "123 Main Street, Anytown USA", "johndoe@example.com", "04322-2698328");
+// console.log(person1.getName()); // Output: John Doe
+// person1.setAge(26);
+// console.log(person1.getAge()); // Output: 26
